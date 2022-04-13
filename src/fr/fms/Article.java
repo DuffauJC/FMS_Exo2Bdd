@@ -10,7 +10,7 @@ public class Article {
 	
 
 	public Article(int idArticle, String description, String brand, double unitaryPrice) {
-		super();
+		
 		setIdArticle(idArticle);
 		setDescription(description);
 		setBrand(brand);
@@ -18,7 +18,7 @@ public class Article {
 		
 	}
 	public Article(String description, String brand, double unitaryPrice) {
-		super();
+
 		setDescription(description);
 		setBrand(brand);
 		setUnitaryPrice(unitaryPrice);
