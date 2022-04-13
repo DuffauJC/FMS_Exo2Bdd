@@ -17,7 +17,13 @@ public class Article {
 		setUnitaryPrice(unitaryPrice);
 		
 	}
-	
+	public Article(String description, String brand, double unitaryPrice) {
+		super();
+		setDescription(description);
+		setBrand(brand);
+		setUnitaryPrice(unitaryPrice);
+		
+	}
 	
 	public int getIdArticle() {
 		return idArticle;
